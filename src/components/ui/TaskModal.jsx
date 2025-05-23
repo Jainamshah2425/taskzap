@@ -1,5 +1,6 @@
 // src/components/ui/TaskModal.jsx
 import { useState, useEffect } from 'react';
+import React from 'react';
 
 export default function TaskModal({ task = null, columns, onClose, onSave }) {
   const [formData, setFormData] = useState({
